@@ -1,4 +1,4 @@
-create table if not exists users(
+create table if not exists USERS(
 	ID INTEGER PRIMARY KEY AUTOINCREMENT,
 	NAME TXT NOT NULL,
 	LASTNAME TXT NOT NULL,
@@ -7,4 +7,4 @@ create table if not exists users(
 	EMAIL TXT NOT NULL UNIQUE,
 	LOGGING TXT DEFAULT UNKNOWN,
 	ALBUMS INTEGER DEFAULT 0
-);	
+);
